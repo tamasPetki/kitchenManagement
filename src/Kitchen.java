@@ -6,5 +6,7 @@ public class Kitchen {
         KitchenHelper kitchen2 = new KitchenHelper();
         KitchenHelper kitchen3 = new KitchenHelper();
 
+        Chef chef = new Chef();
+        System.out.println("xx");
     }
 }

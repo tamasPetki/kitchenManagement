@@ -1,5 +1,8 @@
 abstract class CookerEmployee implements canCook {
 
-    boolean hasKnife;
+    final boolean hasKnife;
 
+    protected CookerEmployee() {
+        hasKnife = true;
+    }
 }
