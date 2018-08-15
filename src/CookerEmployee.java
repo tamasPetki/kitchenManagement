@@ -1,4 +1,4 @@
-abstract class CookerEmployee implements canCook {
+abstract class CookerEmployee extends Employee implements canCook {
 
     final boolean hasKnife;
 
