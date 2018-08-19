@@ -3,6 +3,6 @@ public class Cooker extends CookerEmployee {
 
     @Override
     public void cook() {
-        System.out.println("Cooking...");
+        System.out.println("COOKER: Cooking...");
     }
 }
